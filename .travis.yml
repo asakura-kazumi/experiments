@@ -3,4 +3,4 @@ php:
   - 5.5
   - 5.4
   - hhvm
-script: (cd tests; phpunit GreeterTest.php)
+script: phpunit --bootstrap src/StartTest.php tests/GreeterTest.php
