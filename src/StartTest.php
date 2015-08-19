@@ -1,3 +1,3 @@
 <?php
-include "Greeter";
+include "Greeter.php";
 ?>
