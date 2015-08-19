@@ -8,3 +8,5 @@ class UTest extends PHPUnit_Framework_TestCase
     $this->assertEquals("Hello World!" === $u->show());
   }
 }
+
+?>
