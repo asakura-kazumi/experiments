@@ -3,4 +3,4 @@ php:
   - 5.5
   - 5.4
   - hhvm
-script: phpunit u.php
+script: phpunit tests/UTest.php
