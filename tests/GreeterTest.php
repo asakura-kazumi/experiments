@@ -1,8 +1,8 @@
 <?php
 
-class UTest extends PHPUnit_Framework_TestCase
+class GreeterTest extends PHPUnit_Framework_TestCase
 {
-  public function GreeterTest()
+  public function testGreeter()
   {
     $u = new Greeter();
     $this->assertEquals("Hello World!" === $u->show());
